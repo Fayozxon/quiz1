@@ -12,8 +12,8 @@ btn.addEventListener('click', function() {
         let msg = 'Tenglama yechimga ega emas!';
         answerBox.innerHTML = msg;
     } else if (d == 0) {
-        let answer = b / (2*a);
-        answerBox.innerHTML = answer;
+        let x = -(b / (2*a));
+        answerBox.innerHTML = x;
     } else {
         let x1 = (-b + (d**(1/2)))/(2*a);
         let x2 = (-b - (d**(1/2)))/(2*a);
